@@ -9,6 +9,7 @@ finish-args:
   - --socket=wayland
   - --socket=fallback-x11
   - --socket=pulseaudio
+  - --filesystem=xdg-run/pipewire-0:ro
   - --device=dri
 modules:
   - name: moin
@@ -23,6 +24,6 @@ modules:
       - type: archive
         only-arches:
           - x86_64
-        url: https://moin.chat/downloads/linux/2026.1/moin-2026.1-linux-x86_64.tar.xz
-        sha256: '32bb5f8e9dcf8ee34af6b2db776dcde122363c4ab189865504db033208c3f987'
+        url: https://moin.chat/downloads/linux/2026.2/moin-2026.2-linux-x86_64.tar.xz
+        sha256: '9d251271fa3d1ef861114476d9c4b5bae8b0e4edffd3385ff276c77b117caa4f'
         strip-components: 0
