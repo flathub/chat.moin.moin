@@ -24,6 +24,6 @@ modules:
       - type: archive
         only-arches:
           - x86_64
-        url: https://moin.chat/downloads/linux/2026.10/moin-2026.10-linux-x86_64.tar.xz
-        sha256: '2017aaef717eafc3127543ade7e735ce5c0e12cd0d6c3443fd29fcb46effd41a'
+        url: https://moin.chat/downloads/linux/2026.11/moin-2026.11-linux-x86_64.tar.xz
+        sha256: '429bea54b931e6de8d2929894594fab97b5f8c155ebe923a11489e8160933641'
         strip-components: 0
